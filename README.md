@@ -11,10 +11,10 @@ I performed my analysis on the following files-
 (b) ratings.csv which has userId,movieId,rating,timestamp
 
 
-1.To get count of movies in all Genres
+1.To get count of movies in all Genres - 
 hadoop jar /home/cloudera/Desktop/ML_Driver.jar movielens.ML_Driver /user/cloudera/input/ml-latest-small/movies   /user/cloudera/output/movielens/genre_wise_counts
 
-2.To get Average rating for each Genre
+2.To get Average rating for each Genre - 
 hadoop jar /home/cloudera/Desktop/ML_Driver.jar movielens.ML_Join_Driver /user/cloudera/input/ml-latest-small/movies  /user/cloudera/input/ml-latest-small/ratings /user/cloudera/output/movielens/genre_wise_ratings
 
 Output:
